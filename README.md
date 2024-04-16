@@ -17,3 +17,13 @@
 
 6. **Database Update**
    - Update the `post` table in the database with the new URL pointing to the HLS folder on AWS S3.
+
+## Database Table: `post`
+
+| Name            | Type    | Length | Decimals | Not Null | Key | Comment  |
+|-----------------|---------|--------|----------|----------|-----|----------|
+| id              | int4    | 32     | 0        | ✔        | 🔑   |          |
+| user_id         | int4    | 32     | 0        | ✔        |     |          |
+| original_video_ | varchar | 0      | 0        |          |     |          |
+| final_video_url | varchar | 0      | 0        |          |     |          |
+
